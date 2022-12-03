@@ -20,7 +20,7 @@ namespace EFKomNU.Pages.Kompetence
         }
 
         [BindProperty]
-      public Kompetence Kompetence { get; set; }
+      public Model.Kompetence Kompetence { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {

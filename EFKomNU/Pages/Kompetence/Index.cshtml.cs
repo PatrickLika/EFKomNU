@@ -19,7 +19,7 @@ namespace EFKomNU.Pages.Kompetence
             _context = context;
         }
 
-        public IList<Kompetence> Kompetence { get;set; } = default!;
+        public IList<Model.Kompetence> Kompetence { get;set; } = default!;
 
         public async Task OnGetAsync()
         {

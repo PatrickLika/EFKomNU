@@ -25,7 +25,7 @@ namespace EFKomNU.Pages.Kompetence
         }
 
         [BindProperty]
-        public Kompetence Kompetence { get; set; }
+        public Model.Kompetence Kompetence { get; set; }
         
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD

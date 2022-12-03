@@ -19,7 +19,7 @@ namespace EFKomNU.Pages.Kompetence
             _context = context;
         }
 
-      public Kompetence Kompetence { get; set; }
+      public Model.Kompetence Kompetence { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
